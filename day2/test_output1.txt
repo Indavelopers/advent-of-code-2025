@@ -1,0 +1,196 @@
+Loaded ranges:
+['11-22',
+ '95-115',
+ '998-1012',
+ '1188511880-1188511890',
+ '222220-222224',
+ '1698522-1698528',
+ '446443-446449',
+ '38593856-38593862',
+ '565653-565659',
+ '824824821-824824827',
+ '2121212118-2121212124']
+
+ID range: 11-22
+Checking ID: 11
+Invalid ID: 11
+Checking ID: 12
+Checking ID: 13
+Checking ID: 14
+Checking ID: 15
+Checking ID: 16
+Checking ID: 17
+Checking ID: 18
+Checking ID: 19
+Checking ID: 20
+Checking ID: 21
+Checking ID: 22
+Invalid ID: 22
+Invalid IDs: [11, 22]
+
+ID range: 95-115
+Checking ID: 95
+Checking ID: 96
+Checking ID: 97
+Checking ID: 98
+Checking ID: 99
+Invalid ID: 99
+Checking ID: 100
+ID has an odd number of digits
+Checking ID: 101
+ID has an odd number of digits
+Checking ID: 102
+ID has an odd number of digits
+Checking ID: 103
+ID has an odd number of digits
+Checking ID: 104
+ID has an odd number of digits
+Checking ID: 105
+ID has an odd number of digits
+Checking ID: 106
+ID has an odd number of digits
+Checking ID: 107
+ID has an odd number of digits
+Checking ID: 108
+ID has an odd number of digits
+Checking ID: 109
+ID has an odd number of digits
+Checking ID: 110
+ID has an odd number of digits
+Checking ID: 111
+ID has an odd number of digits
+Checking ID: 112
+ID has an odd number of digits
+Checking ID: 113
+ID has an odd number of digits
+Checking ID: 114
+ID has an odd number of digits
+Checking ID: 115
+ID has an odd number of digits
+Invalid IDs: [99]
+
+ID range: 998-1012
+Checking ID: 998
+ID has an odd number of digits
+Checking ID: 999
+ID has an odd number of digits
+Checking ID: 1000
+Checking ID: 1001
+Checking ID: 1002
+Checking ID: 1003
+Checking ID: 1004
+Checking ID: 1005
+Checking ID: 1006
+Checking ID: 1007
+Checking ID: 1008
+Checking ID: 1009
+Checking ID: 1010
+Invalid ID: 1010
+Checking ID: 1011
+Checking ID: 1012
+Invalid IDs: [1010]
+
+ID range: 1188511880-1188511890
+Checking ID: 1188511880
+Checking ID: 1188511881
+Checking ID: 1188511882
+Checking ID: 1188511883
+Checking ID: 1188511884
+Checking ID: 1188511885
+Invalid ID: 1188511885
+Checking ID: 1188511886
+Checking ID: 1188511887
+Checking ID: 1188511888
+Checking ID: 1188511889
+Checking ID: 1188511890
+Invalid IDs: [1188511885]
+
+ID range: 222220-222224
+Checking ID: 222220
+Checking ID: 222221
+Checking ID: 222222
+Invalid ID: 222222
+Checking ID: 222223
+Checking ID: 222224
+Invalid IDs: [222222]
+
+ID range: 1698522-1698528
+Checking ID: 1698522
+ID has an odd number of digits
+Checking ID: 1698523
+ID has an odd number of digits
+Checking ID: 1698524
+ID has an odd number of digits
+Checking ID: 1698525
+ID has an odd number of digits
+Checking ID: 1698526
+ID has an odd number of digits
+Checking ID: 1698527
+ID has an odd number of digits
+Checking ID: 1698528
+ID has an odd number of digits
+Invalid IDs: []
+
+ID range: 446443-446449
+Checking ID: 446443
+Checking ID: 446444
+Checking ID: 446445
+Checking ID: 446446
+Invalid ID: 446446
+Checking ID: 446447
+Checking ID: 446448
+Checking ID: 446449
+Invalid IDs: [446446]
+
+ID range: 38593856-38593862
+Checking ID: 38593856
+Checking ID: 38593857
+Checking ID: 38593858
+Checking ID: 38593859
+Invalid ID: 38593859
+Checking ID: 38593860
+Checking ID: 38593861
+Checking ID: 38593862
+Invalid IDs: [38593859]
+
+ID range: 565653-565659
+Checking ID: 565653
+Checking ID: 565654
+Checking ID: 565655
+Checking ID: 565656
+Checking ID: 565657
+Checking ID: 565658
+Checking ID: 565659
+Invalid IDs: []
+
+ID range: 824824821-824824827
+Checking ID: 824824821
+ID has an odd number of digits
+Checking ID: 824824822
+ID has an odd number of digits
+Checking ID: 824824823
+ID has an odd number of digits
+Checking ID: 824824824
+ID has an odd number of digits
+Checking ID: 824824825
+ID has an odd number of digits
+Checking ID: 824824826
+ID has an odd number of digits
+Checking ID: 824824827
+ID has an odd number of digits
+Invalid IDs: []
+
+ID range: 2121212118-2121212124
+Checking ID: 2121212118
+Checking ID: 2121212119
+Checking ID: 2121212120
+Checking ID: 2121212121
+Checking ID: 2121212122
+Checking ID: 2121212123
+Checking ID: 2121212124
+Invalid IDs: []
+
+All invalid IDs:
+[11, 22, 99, 1010, 1188511885, 222222, 446446, 38593859]
+
+Sum of invalid IDs: 1227775554

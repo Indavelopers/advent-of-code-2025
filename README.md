@@ -19,3 +19,7 @@ The repository is structured by day:
 ## License
 
 The code in this repository is licensed under the CC BY-SA 4.0 License.
+
+## TODOs
+
+- `day2/test_solution1.py`: Check how to dinamically load test cases from `test_input.txt` instead

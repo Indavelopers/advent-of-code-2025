@@ -1,0 +1,26 @@
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Virtual environment
+venv/
+.venv/
+env/
+.env
+
+# Test and coverage reports
+.pytest_cache/
+.coverage
+htmlcov/
+.vscode/
+
+# Build and distribution artifacts
+build/
+dist/
+*.egg-info/
+
+# Generated output files
+output.txt

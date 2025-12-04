@@ -1,0 +1,12 @@
+Starting dial position: 50
+Movement #1: dir L, rotation 68, dial 82, password 1
+Movement #2: dir L, rotation 30, dial 52, password 1
+Movement #3: dir R, rotation 48, dial 0, password 2
+Movement #4: dir L, rotation 5, dial 95, password 2
+Movement #5: dir R, rotation 60, dial 55, password 3
+Movement #6: dir L, rotation 55, dial 0, password 4
+Movement #7: dir L, rotation 1, dial 99, password 4
+Movement #8: dir L, rotation 99, dial 0, password 5
+Movement #9: dir R, rotation 14, dial 14, password 5
+Movement #10: dir L, rotation 82, dial 32, password 6
+Final dial position: 32, password: 6

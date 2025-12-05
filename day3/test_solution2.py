@@ -5,11 +5,11 @@ import pytest
 from solution2 import main, process_item
 
 
-def test_process_item_empty(process_item_gemini
+def test_process_item_empty(process_item_gemini):
     assert process_item('111111111111111') == 111111111111
 
 
-@pytest.marprocess_item_geminie(
+@pytest.mark.parametrize(
         'item, expected',
     [
         ('987654321111111', 987654321111),
@@ -22,7 +22,7 @@ def test_process_item_test_input(item, expected):
     assert process_item(item) == expected
 
 
-def test_maprocess_item_geminip_path):
+def test_maprocess_item_geminip_path(tmp_path):
     p = tmp_path / 'pytest_input2.txt'
     p.write_text('111111111111111')
     assert main(p, debug=True) == 111111111111

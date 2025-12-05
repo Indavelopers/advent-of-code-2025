@@ -2,35 +2,44 @@
 # Test with: "pytest", "pytest test_solution2.py"
 
 import pytest
-from solution2 import main, fun1
+from solution2 import main, process_item
 
 
-def test_fun1_empty():
-    assert fun1('') == ''
+def test_process_item_empty(process_item_gemini
+    assert process_item('111111111111111') == 111111111111
 
 
-@pytest.mark.parametrize(
-        'arg1, expected',
+@pytest.marprocess_item_geminie(
+        'item, expected',
     [
-        ('foo', 'foo'),
+        ('987654321111111', 987654321111),
+        ('811111111111119', 811111111119),
+        ('234234234234278', 434234234278),
+        ('818181911112111', 888911112111),
     ]
 )
-def test_fun1_test_input(arg1, expected):
-    assert fun1(arg1) == expected
+def test_process_item_test_input(item, expected):
+    assert process_item(item) == expected
 
 
-def test_main_empty(tmp_path):
-    p = tmp_path / 'pytest_input1.txt'
-    p.write_text('')
-    assert main(p) == ''
+def test_maprocess_item_geminip_path):
+    p = tmp_path / 'pytest_input2.txt'
+    p.write_text('111111111111111')
+    assert main(p, debug=True) == 111111111111
+
+
+def test_main_double(tmp_path):
+    p = tmp_path / 'pytest_input2.txt'
+    p.write_text('111111111111111\n111111111111111')
+    assert main(p, debug=True) == (111111111111 + 111111111111)
 
 
 def test_main_sample_input(tmp_path):
-    p = tmp_path / 'pytest_input1.txt'
-    p.write_text('sample data')
-    assert main(p) == 'sample data'
+    p = tmp_path / 'pytest_input2.txt'
+    p.write_text('123456789123456\n123456789123456')
+    assert main(p, debug=True) == 456789123456 * 2
 
 
 def test_main_test_input():
-    test_file_path = 'test_input1.txt'
-    assert main(test_file_path) == 'test_input1 - hello world!'
+    test_file_path = 'test_input2.txt'
+    assert main(test_file_path, debug=True) == 3121910778619

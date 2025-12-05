@@ -1,5 +1,5 @@
 # Day 2
-# 1/2 challenge
+# 2/2 challenge
 
 import argparse
 import logging
